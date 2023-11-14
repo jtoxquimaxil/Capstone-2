@@ -7,12 +7,50 @@
 }
 
 /* search bar */
+.header
+{
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
 
 .search-feild
 {
     height: 50px;
     padding: 10px;
-    border: none;
+    border: solid;
     border-radius: 25px;
-    outline: none;
+    outline: black;
+}
+
+.park-types
+{
+    width: 400px;
+}
+
+.location
+{
+    width: 200px;
+}
+
+h1
+{
+    color: black;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.search-btn
+{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
 }
