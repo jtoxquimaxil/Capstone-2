@@ -5,3 +5,14 @@
 .carousel-item{
     height: 32rem;
 }
+
+/* search bar */
+
+.search-feild
+{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
