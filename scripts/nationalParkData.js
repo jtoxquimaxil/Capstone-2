@@ -1,5 +1,7 @@
-"use script";
+"use scrict";
 
+
+//----------------------------------Starting Array----------------------------
 const nationalParksArray = [
     {
     LocationID: "ABLI",
@@ -6860,3 +6862,4 @@ const nationalParksArray = [
     }
     }
 ]
+
