@@ -1,5 +1,6 @@
 "use strict";
 
+const parkLocations = document.getElementById();
 const locationsArray = [
     "Alabama",
     "Alaska",
@@ -57,3 +58,7 @@ const locationsArray = [
     "Wisconsin",
     "Wyoming"
 ]
+
+windows.onload = function () {
+    const 
+}
