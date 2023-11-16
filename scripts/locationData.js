@@ -59,17 +59,31 @@ const locationsArray = [
     "Wyoming"
 ]
 
+const parkTypesArray = [
+    "National Park",
+    "National Monument",
+    "Recreation Area",
+    "Scenic Trail",
+    "Battlefield",
+    "Historic",
+    "Memorial",
+    "Preserve",
+    "Island",
+    "River",
+    "Seashore",
+    "Trail",
+    "Parkway"
+]
+
 window.onload = function() {
-    const selectState = document.getElementById("selectState")
+    const selectState = document.getElementById("selectState");
+    const parkType = document.getElementById("parkType");
 
     for(const states of locationsArray) {
         selectState.options[selectState.options.length] = new Option(states)
 
     }
 
-    selectState.onchange = function() {
-        
-    }
-
+    parkType.onchange = function
 
 }

@@ -15,18 +15,23 @@ const parkTypesArray = [
     "Trail",
     "Parkway"
 ]
+// window.onload = function () {
 
-window.onload = function() {
-    const parkType = document.getElementById("parkType")
+//     const parkType = document.getElementById("parkType");
 
-    for(const parks of parkTypesArray) {
-        parkType.options[parkType.options.length] = new Option(parks)
+//     parkType.onchange = function () {
+//         parkTypeOptions(this.value);
+//     }
 
-    }
+// }
 
-    selectState.onchange = function() {
-        
-    }
+// function parkTypeOptions(selectedValue) {
+//     const parkType = document.getElementById("parkType");
+//     parkType.length = 1;
 
-
-}
+//     for(const type of parkTypesArray) {
+//         if(type.startsWith(selectedValue)) {
+//             parkType.options[parkType.options.length] = new Option(type);
+//         }
+//     }
+// }
