@@ -15,3 +15,4 @@ const parkTypesArray = [
     "Trail",
     "Parkway"
 ]
+

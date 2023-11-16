@@ -1,6 +1,6 @@
 "use strict";
 
-const parkLocations = document.getElementById();
+
 const locationsArray = [
     "Alabama",
     "Alaska",
@@ -59,6 +59,11 @@ const locationsArray = [
     "Wyoming"
 ]
 
-windows.onload = function () {
-    const 
+window.onload = function() {
+    const selectState = document.getElementById("selectState")
+
+    for(const states of locationsArray) {
+        selectState.options[selectState.options.length] = new Option(states)
+
+    }
 }
