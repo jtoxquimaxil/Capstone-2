@@ -9,9 +9,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/nationalParks.css" rel="stylesheet">
-</head>
 
-<body>
     <!-- Navbar code -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -34,33 +32,43 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-                           <!-- State dropdwon Code -->
-        <select id= "selectState" name="selectState" class="form-select" aria-label="Default select example">
-            <option selected>Select State</option>
 
-        </select>
-                              <!-- Park Type Data dropdwon -->
-        <select id= "parkType" name="parkType" class="form-select" aria-label="Default select example">
-            <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-        </select>
-    </div>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <!-- State dropdwon Code -->
+            <select id="selectState" name="selectState" class="form-select" aria-label="Default select example">
+                <option selected>Select State</option>
+
+            </select>
+            <!-- Park Type Data dropdwon -->
+            <select id="parkType" name="parkType" class="form-select" aria-label="Default select example">
+                <option selected>Select Park Type</option>
+
+            </select>
+
+        </div>
+        <div id="cardInfo">
+
+        </div>
+
+    </main>
 
 
-</body>
 
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-
-<script src="scripts/locationData.js"></script>
-<script src="scripts/parkTypeData.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/parkTypeData.js"></script>
+    <script src="scripts/locationData.js"></script>
+    <script src="scripts/nationalParkData.js"></script>
+    <script src="scripts/mountainData.js"></script>
+    <script src="scripts/mountaindata2.js"></script>
 </body>
 
 </html>

@@ -59,31 +59,22 @@ const locationsArray = [
     "Wyoming"
 ]
 
-const parkTypesArray = [
-    "National Park",
-    "National Monument",
-    "Recreation Area",
-    "Scenic Trail",
-    "Battlefield",
-    "Historic",
-    "Memorial",
-    "Preserve",
-    "Island",
-    "River",
-    "Seashore",
-    "Trail",
-    "Parkway"
-]
 
-window.onload = function() {
-    const selectState = document.getElementById("selectState");
-    const parkType = document.getElementById("parkType");
 
-    for(const states of locationsArray) {
-        selectState.options[selectState.options.length] = new Option(states)
+// window.onload = function () {
+//     const selectState = document.getElementById("selectState");
 
-    }
+//     for (const states of locationsArray) {
+//         selectState.options[selectState.options.length] = new Option(states)
 
-    parkType.onchange = function
+//     } 
+//     selectState.addEventListener("change", function () {
+//         const selectedState = this.value;
 
-}
+    
+//         console.log("Selected state:", selectedState);
+//     })
+
+
+// }
+
