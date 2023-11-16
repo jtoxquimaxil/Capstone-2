@@ -66,4 +66,10 @@ window.onload = function() {
         selectState.options[selectState.options.length] = new Option(states)
 
     }
+
+    selectState.onchange = function() {
+        
+    }
+
+
 }

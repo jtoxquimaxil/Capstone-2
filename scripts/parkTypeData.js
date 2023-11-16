@@ -16,3 +16,17 @@ const parkTypesArray = [
     "Parkway"
 ]
 
+window.onload = function() {
+    const parkType = document.getElementById("parkType")
+
+    for(const parks of parkTypesArray) {
+        parkType.options[parkType.options.length] = new Option(parks)
+
+    }
+
+    selectState.onchange = function() {
+        
+    }
+
+
+}
