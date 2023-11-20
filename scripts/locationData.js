@@ -59,22 +59,3 @@ const locationsArray = [
     "Wyoming"
 ]
 
-
-
-// window.onload = function () {
-//     const selectState = document.getElementById("selectState");
-
-//     for (const states of locationsArray) {
-//         selectState.options[selectState.options.length] = new Option(states)
-
-//     } 
-//     selectState.addEventListener("change", function () {
-//         const selectedState = this.value;
-
-    
-//         console.log("Selected state:", selectedState);
-//     })
-
-
-// }
-

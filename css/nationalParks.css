@@ -1,8 +1,8 @@
 
-select{
-    margin-top: 15px;
+main {
+    text-align: center;
 }
 
-/* #parkType{
-    display: none;
-} */
+body {
+    background-color: beige;
+}

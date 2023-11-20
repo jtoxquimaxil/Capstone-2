@@ -4,54 +4,125 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Enjoy the Outdooes</title>
+    <title>Time to Travel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="NationalParks.html">National Parks</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="mountainInfo.html">Mountians
-                            Information</a>
+                        <a class="nav-link active" aria-current="page" href="NationalParks.html">National Parks Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="mountainInfo.html">Mountain Data</a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
+    <main>
 
-    <Main>
+        <div class=" container">
+            <!-- Title -->
+            <div class="py-5 text-center">
+                <img class="mb-4 d-block mx-auto" src="images/logo.jpg" alt="Coffee Logo" width="72" height="72">
+                <h2 class="text-center my-5 specialheader">Enjoy the Outdoors</h2>
+                
+                <!-- carousel -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
 
-   
+                            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/Kenai Fjords Park.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/national park.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Delaware Water Gap.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
 
-    </Main>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <p id="nationalParks"></p>
+        <!-- Centered Title  -->
+        <div class="container text-center my-5">
+            <h2 class="specialheader">Discover More</h2>
+        </div>
 
+        <!-- cards -->
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/wonderland.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p>Engaging in outdoor travel offers a unique and rejuvenating
+                                escape from the routines of daily life. Venturing into nature, be it the towering peaks
+                                of majestic mountains, the tranquil beauty of serene lakes, or the rustling leaves of
+                                dense forests, provides a sensory feast that transcends the ordinary. The crisp air, the
+                                symphony of birdsong, and the awe-inspiring vistas all contribute to an immersive
+                                experience that rejuvenates both body and soul.</p>
+                            <a href="https://www.nationalgeographic.com/science/article/mountains"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/rivers.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p>Outdoor travel encompasses a diverse array of
+                                experiences, from the snow-capped peaks of remote mountains to the sun-drenched expanses
+                                of deserts. Exploring national parks and protected areas allows travelers to witness the
+                                wonders of biodiversity, from unique flora to elusive wildlife. Activities such as
+                                birdwatching, nature photography, and stargazing become gateways to appreciating the
+                                intricate beauty of the natural world.</p>
+                            <a href="https://www.us-parks.com/" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/views.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text specialtext">Traveling outdoors offers a myriad of opportunities for
+                                exploration and connection with the environment. Activities like backpacking, rock
+                                climbing, and kayaking allow adventurers to challenge themselves physically while
+                                immersing in the beauty of untamed landscapes. The wilderness becomes a classroom,
+                                teaching lessons of resilience, adaptability, and appreciation for the delicate balance
+                                of ecosystems. Outdoor travel fosters a deep sense of mindfulness.
+                            </p>
+                            <a href="https://outdoors.com/" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-
-
-
-
+    </main>
 
 
 
@@ -68,11 +139,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="scripts/nationalParkData.js"></script>
-    <script src="scripts/locationData.js"></script>
-    <script src="scripts/parkTypeData.js"></script>
-    <script src="scripts/mountainData.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="scripts/locationData.js"></script>
+    <script src="scripts/mountainData.js"></script>
+    <script src="scripts/nationalParkData.js"></script>
+    <script src="scripts/parkTypeData.js"></script>
 </body>
 
 </html>
