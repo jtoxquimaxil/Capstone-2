@@ -2,6 +2,8 @@
 
 const selectElement = document.querySelector(".form-select");
 const mountainAccordion = document.getElementById('mountainAccordion');
+const mountianInfo = document.getElementById("mountainInfo");
+
 
 mountainsArray.forEach((mountain, index) => {
     const option = document.createElement('option');
@@ -18,6 +20,9 @@ selectElement.addEventListener('change', function () {
     displayMountainAccordion(selectedMountain);
 });
 
+function mountainType() {
+
+}
 
 function displayMountainAccordion(mountain) {
 
@@ -33,24 +38,18 @@ function displayMountainAccordion(mountain) {
     btn.className = "accordion-button collapsed";
     btn.type = "button";
     btn.setAttribute("data-bs-toggle", "collapse");
-
     const targetId = "mountainCollapse";
     btn.setAttribute("data-bs-target", "#" + targetId);
     btn.setAttribute("aria-expanded", "false");
     btn.setAttribute("aria-controls", targetId);
     btn.textContent = mountain.name; 
-
     accordionHeader.appendChild(btn);
-
     const flushCollapseDiv = document.createElement("div");
     flushCollapseDiv.id = targetId;
     flushCollapseDiv.className = "accordion-collapse collapse";
     flushCollapseDiv.setAttribute("data-bs-parent", "#mountainAccordion");
-
     const accordionBody = document.createElement("div");
     accordionBody.className = "accordion-body";
-
-
     const accordionBodyHTML = `
         <p><strong>Elevation:</strong> ${mountain.elevation} feet</p>
         <p><strong>Effort:</strong> ${mountain.effort}</p>
@@ -61,4 +60,8 @@ function displayMountainAccordion(mountain) {
 
     flushCollapseDiv.appendChild(accordionBody);
     accordionItemDiv.appendChild(accordionHeader);
+    flushCollapseDiv.appendChild(accordionBody);
+    accordionItemDiv.appendChild(flushCollapseDiv);
+    mountainAccordion.appendChild(accordionItemDiv);
+
 }

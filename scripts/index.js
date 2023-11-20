@@ -9,7 +9,6 @@ const selectPark = document.getElementById("selectPark");
 const selectLocation = document.getElementById("selectLocation");
 // const selectParkType = document.getElementById("selectParkType");
 
-let selectMountain = document.getElementById('selectMountain');
 
 // my buttons 
 function init() {
