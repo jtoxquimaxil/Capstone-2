@@ -1,10 +1,11 @@
 "use strict";
 
+// my dropdown and accordion
 const selectElement = document.querySelector(".form-select");
 const mountainAccordion = document.getElementById('mountainAccordion');
 const mountianInfo = document.getElementById("mountainInfo");
 
-
+//populating dropwdown
 mountainsArray.forEach((mountain, index) => {
     const option = document.createElement('option');
     option.value = index;
@@ -57,7 +58,6 @@ function displayMountainAccordion(mountain) {
         <!-- Add more information as needed -->`;
 
     accordionBody.innerHTML = accordionBodyHTML;
-
     flushCollapseDiv.appendChild(accordionBody);
     accordionItemDiv.appendChild(accordionHeader);
     flushCollapseDiv.appendChild(accordionBody);
